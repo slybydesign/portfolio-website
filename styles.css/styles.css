@@ -3,9 +3,9 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #F4EBC3;
   font-family: 'Mukta', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   /* Sets the font size to 16px */
   font-weight: 300;
   /* Sets the font weight to 300 */
@@ -73,4 +73,12 @@ a:focus {
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff;
+}
+
+header {
+  background-color: #C5CEAE;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #000;
+  
 }
