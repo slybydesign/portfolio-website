@@ -2,6 +2,10 @@ img {
   width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #F4EBC3;
   font-family: 'Mukta', sans-serif;
@@ -82,3 +86,5 @@ header {
   border-bottom: 3px solid #000;
   
 }
+
+/* Layout styling */
