@@ -80,9 +80,10 @@ a:focus {
 }
 
 header {
-  position: relative;
+  position: fixed;
   background-color: #C5CEAE;
   text-align: center;
+  width: 100%;
   padding: 10px;
   margin: 10px;
   border-bottom: 3px solid #000;
