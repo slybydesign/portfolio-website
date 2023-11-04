@@ -49,18 +49,17 @@ a:focus {
 
 }
 
-.button {
+.button, .button:visited {
   display: inline-block;
   background-color: #ff7f50;
   color: white;
   font-weight: 400;
   text-decoration: none;
-  text-emphasis-color: white;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
-}
+} 
 
 .button:hover {
   opacity: 0.8;
