@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://example.com/fontawesome/vVERSION/js/fontawesome.js" data-auto-replace-svg="nest"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +18,21 @@
 
 <body>
     <header>
-        <div class="container"><img class="logo"
-                src="images/benoptim_wellness_website_pictures/benoptim_wellness_logo_svg.svg" alt="BenOptim Wellness">
-        </div>
-        <div>
-            <nav>
-                <ul class="">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle"><img class="logo"
+                    src="images/benoptim_wellness_website_pictures/benoptim_wellness_logo_svg.svg"
+                    alt="BenOptim Wellness">
+            </div>
+            <div>
+                <nav>
+                    <ul class="">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -56,16 +61,16 @@
                                 alt="My Image">
                         </picture>
                     </div>
-                        <div class="col-md-6 col-lg-5">
-                            <h3>BenOptim Wellness</h3>
-                            <p>This project was completed as an application
-                                to serve busy adults looking to find moments of peace throughout their day with short
-                                meditation
-                                sessions.
-                            </p>
-                                <a class="button" href="benoptim_wellness.html">Read more</a> More
-                            on this project</a>
-                        </div>
+                    <div class="col-md-6 col-lg-5">
+                        <h3>BenOptim Wellness</h3>
+                        <p>This project was completed as an application
+                            to serve busy adults looking to find moments of peace throughout their day with short
+                            meditation
+                            sessions.
+                        </p>
+                        <a class="button" href="benoptim_wellness.html">Read more</a> More
+                        on this project</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1662,7 +1667,8 @@
             </a>
         </div>
     </footer>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 

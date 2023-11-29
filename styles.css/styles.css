@@ -120,7 +120,7 @@ header {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 nav > ul {
@@ -144,6 +144,10 @@ nav > ul > li > a:visited {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+.icon {
+  max-width: 150px;
 }
 
 main {
