@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  background-color: #f4ebc3;
+  background-color: #f0fbfe;
   font-family: 'Mukta', sans-serif;
   font-size: 18px;
 
@@ -135,7 +135,7 @@ nav > ul > li > a:visited {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #c8e3ec;
   padding: 20;
   display: inline-block;
   width: 100%;
@@ -184,7 +184,7 @@ Medium devices (640px and larger)
   }
 
   #hero {
-    background-color: #ffe4c4;
+    background-color: #c8e3ec;
     padding-top: 120px;
     display: inline-block;
     width: 100%;
@@ -242,7 +242,7 @@ Large devices (1024px or larger)
   }
 
   body {
-    background-color: #f4ebc3;
+    background-color: #f0fbfe;
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
 
@@ -257,7 +257,7 @@ Large devices (1024px or larger)
   }
 
   #hero {
-    background-color: #ffe4c4;
+    background-color: #c8e3ec;
     padding-top: 120px;
     display: inline-block;
     width: 100%;
@@ -301,7 +301,7 @@ X-large devices (1440px or larger)
   }
 
   #hero {
-    background-color: #ffe4c4;
+    background-color: #c8e3ec;
     padding-top: 120px;
     display: inline-block;
     width: 100%;
