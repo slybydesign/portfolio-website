@@ -268,7 +268,7 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-
+  /*
   .col-md-6 {
     width: 50%;
   }
@@ -279,7 +279,7 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 40%;
-  }
+  } */
 }
 
 /* ==============================
